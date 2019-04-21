@@ -24,5 +24,5 @@ public:
 	friend BigNumber operator*(BigNumber &bn1, BigNumber &bn2);               //重载*
 	friend BigNumber operator/(BigNumber &bn1, BigNumber &bn2);               //重载/
 	friend BigNumber operator%(BigNumber &bn1, BigNumber &bn2);               //重载%
-	friend bool operator>=(BigNumber &bn1, BigNumber &bn2);                   //重载-
+	friend bool operator>=(BigNumber &bn1, BigNumber &bn2);                   //重载>=
 };
